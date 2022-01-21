@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminWelcome">
+
+    <Button
+        android:id="@+id/serviceFunc"
+        android:layout_width="235dp"
+        android:layout_height="75dp"
+        android:text="Service Functionality"
+        android:textSize="18.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/accountFunc"
+        android:layout_width="235dp"
+        android:layout_height="75dp"
+        android:text="Account Functionality"
+        android:textSize="18.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviceFunc"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <TextView
+        android:id="@+id/welcomeAdminTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/serviceFunc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

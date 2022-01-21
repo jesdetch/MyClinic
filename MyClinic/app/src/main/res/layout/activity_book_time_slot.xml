@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookTimeSlotActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="148dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="center"
+            android:text="Select a timeslot based on day selected"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/timeslotListView"
+            android:layout_width="match_parent"
+            android:layout_height="456dp"
+            android:listSelector="@android:color/darker_gray">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/select4Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BOOK APPOINTMENT" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "244747985724",
+    "firebase_url": "https://myclinic-4fb92.firebaseio.com",
+    "project_id": "myclinic-4fb92",
+    "storage_bucket": "myclinic-4fb92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244747985724:android:5a0272c4e5c2842c967439",
+        "android_client_info": {
+          "package_name": "com.example.myclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244747985724-281cgeuicj2u8o2i2fh0u5ubj48ro43t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myclinic",
+            "certificate_hash": "1f2d5472c4bed97f468a1bf5c2a16463e3657555"
+          }
+        },
+        {
+          "client_id": "244747985724-uqgtnqg7tef9uttagmdnmneb209oagv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myclinic",
+            "certificate_hash": "90ad17454b80f60f0ac73c0a14e0d0ae773008db"
+          }
+        },
+        {
+          "client_id": "244747985724-t9lprvr9ukbk6q0dgp450hhf3c6h8a7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoP-9zdVfpeLa10AWYEDrNbcSmB42ZhYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244747985724-t9lprvr9ukbk6q0dgp450hhf3c6h8a7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
